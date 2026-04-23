@@ -1,7 +1,7 @@
 import Navbar from './Navbar';
 import CakeCard from './CakeCard';
 import Footer from './Footer';
-
+.
 
 function App() {
   return (
