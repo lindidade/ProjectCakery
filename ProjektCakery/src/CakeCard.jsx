@@ -1,8 +1,8 @@
 function CakeCard({ name, price, description, image }) {
   
-  // Function to handle the click and scroll
+  
   const handleClick = () => {
-    // We look for an element with the ID "about-section" and scroll to it
+   
     const section = document.getElementById('about-section');
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
@@ -17,7 +17,7 @@ function CakeCard({ name, price, description, image }) {
     width: '250px',
     textAlign: 'center',
     backgroundColor: '#fff',
-    overflow: 'hidden' // Ser till att bilden inte sticker ut när den blir större
+    overflow: 'hidden' 
   };
 
   const imageStyle = {
